@@ -28,9 +28,4 @@ public class ParamSteps {
     public void expansionClick(String arg0) {
         searhPage.ExpansionClick(arg0);
     }
-
-    @When("Image {string} Click")
-    public void imageClick(String arg0) {
-        searhPage.ImageClick();
-    }
 }

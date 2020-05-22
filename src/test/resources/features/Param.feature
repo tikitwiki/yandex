@@ -7,7 +7,7 @@ Feature: Searh Smartphone
     Then SalesScrollTo
     When Model "Xiaomi" Click
     Then Xiaomivisibleu
-    When  Memory "" Click
+    When  Memory "6 Гб" Click
     When Operat "" Click
     When Expansion "" Click
     When InputClick "" Click

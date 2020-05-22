@@ -1,4 +1,4 @@
-package steps;
+package pages;
 
 import com.codeborne.selenide.impl.WebElementSource;
 import org.openqa.selenium.By;

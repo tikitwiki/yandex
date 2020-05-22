@@ -2,6 +2,7 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import pages.BasicPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.sleep;
@@ -113,7 +114,7 @@ public class BasePageTest {
         basicPage.Usb();
     }
 
-
+//
     @Then("ScrAlt")
     public void scralt() {
         basicPage.ScrAlt();
