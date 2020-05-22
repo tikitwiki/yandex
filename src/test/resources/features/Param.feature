@@ -13,7 +13,7 @@ Feature: Searh Smartphone
     When InputClick "1920×1080" Click
     Then ScreenClick
     Then HeaderScroll
-    When Image "Смартфон Xiaomi Mi 6 6/64GB" Click
+    When Input "Смартфон Xiaomi Mi 6 6/64GB" Click
     Then ScrAlt
     When DescriptionParameter
     When ProcessorParameter
@@ -30,9 +30,3 @@ Feature: Searh Smartphone
 
 
 
-    When Model "Xiaomi" Click
-    When Operat "" Click
-    When  Memory "" Click
-  When Expansion "" Click
-    When InputClick "" Click
-   When Image "" Click

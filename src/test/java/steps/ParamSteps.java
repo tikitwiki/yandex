@@ -28,4 +28,10 @@ public class ParamSteps {
     public void expansionClick(String arg0) {
         searhPage.ExpansionClick(arg0);
     }
+
+
+    @When("Input {string} Click")
+    public void inputClick(String arg0) {
+        searhPage.InputClick(arg0);
+    }
 }

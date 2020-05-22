@@ -27,7 +27,7 @@ public class BasicPage {
     public void SalesScrollTo() {
         $(By.xpath("//span[@class = 'NVoaOvqe58 _1gAodJU0Dw' and text() ='В продаже']")).scrollTo().click();
     }
-//кликаем параметр
+
     public void XiaomiClick() {
         $(By.xpath(" //span[@class = 'NVoaOvqe58' and text() ='Xiaomi']")).scrollTo().click();
 
@@ -43,7 +43,7 @@ public class BasicPage {
     }
 
 
-//внешняя память
+
     public void RamClick() {
         $(By.xpath("//span[@class = 'NVoaOvqe58' and text() ='64 ГБ']")).scrollTo().waitUntil(visible, 5 * 1000).click();
     }
@@ -51,7 +51,7 @@ public class BasicPage {
     public void RampClick() {
         $(By.xpath("//span[@class = 'NVoaOvqe58' and text() ='6 Гб']")).scrollTo().waitUntil(visible, 5 * 1000).click();
     }
-//ddd
+
     public void ScreenClick() {
         $(By.xpath("//span[@class = 'NVoaOvqe58 _17C4Le-0TB' and text() ='1920×1080 (Full HD)']")).waitUntil(visible, 5 * 1000).click();
     }

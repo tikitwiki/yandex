@@ -8,14 +8,14 @@ import static com.codeborne.selenide.Selenide.$;
 public class SearchPage {
     public void ModelClick(String text) {
 
-        //модель
+
         $(By.xpath(" //span[@class = 'NVoaOvqe58' and text() ='" + text + "']")).scrollTo().click();
 
     }
 
     public void OperatClick(String text) {
 
-        //оперативка
+
         $(By.xpath("//span[@class = 'NVoaOvqe58' and text() ='" + text + "']")).scrollTo().click();
     }
 
